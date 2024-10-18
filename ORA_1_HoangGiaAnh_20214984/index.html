@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>W3.CSS Template</title>
+<title>20214984 - Hoang Gia Anh</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -18,24 +18,24 @@
 <div class="w3-top">
   <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
     <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1 bar-center" style="display: flex;" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
-    <a href="#" onclick="loadContent('logo.html');loadSidebar('sidebarlogo.html')" class="w3-bar-item w3-button w3-hover-white">
-      <img src="images/logo_large.png" class="logo" alt="">
+    <a href="#" onclick="loadContent('html/logo.html');loadSidebar('html/sidebarlogo.html')" class="w3-bar-item w3-button w3-hover-white">
+      <img  id="nav-top" src="images/logo_large.png" class="logo" alt="">
     </a>
-    <a href="#" onclick="loadContent('subject.html'); loadSidebar('sidebarsb.html')" class="w3-bar-item w3-button w3-hide-small w3-hover-white bar-center" style="display: flex;">Thông tin môn học</a>
-    <a href="#" onclick="loadContent('web.html'); loadSidebar('sidebarweb.html')" class="w3-bar-item w3-button w3-hide-small w3-hover-white bar-center" style="display: flex;">Các công nghệ Web</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white bar-center" style="display: flex;">Thông tin sinh viên</a>
+    <a href="#" onclick="loadContent('html/subject.html'); loadSidebar('html/sidebarsb.html')" class="w3-bar-item w3-button w3-hide-small w3-hover-white bar-center" style="display: flex; font-size: medium;">Môn học</a>
+    <a href="#" onclick="loadContent('html/web.html'); loadSidebar('html/sidebarweb.html')" class="w3-bar-item w3-button w3-hide-small w3-hover-white bar-center" style="display: flex; font-size: medium;">Công nghệ Web</a>
+    <a href="#" onclick="loadContent('html/student.html'); loadSidebar('html/sidebarstudent.html')" class="w3-bar-item w3-button w3-hide-small w3-hover-white bar-center" style="display: flex; font-size: medium;">Sinh viên</a>
   </div>
 </div>
 
 <!-- Sidebar -->
-<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left "id="mySidebar" style="z-index: 3;">
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-teal w3-animate-left "id="mySidebar" style="z-index: 3;">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
     <i class="fa fa-remove"></i>
   </a>
   <h4 class="w3-bar-item"><b>Menu</b></h4>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#heading1">Lịch khai giảng</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#heading2">Semina</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#heading3">Các công ty quan tâm</a>
+  <a class="w3-bar-item w3-button w3-hover-black" style="font-family: 'Times New Roman', Times, serif;" href="#heading1">Lịch khai giảng</a>
+  <a class="w3-bar-item w3-button w3-hover-black" style="font-family: 'Times New Roman', Times, serif;" href="#heading2">Seminar</a>
+  <a class="w3-bar-item w3-button w3-hover-black" style="font-family: 'Times New Roman', Times, serif;" href="#heading3">Các công ty quan tâm</a>
 </nav>
 <!-- Overlay effect when opening sidebar on small screens -->
 <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
@@ -45,13 +45,13 @@
 
   <div class="w3-row w3-padding-top-64" id="heading1">
     <div class="w3-twothird w3-container">
-      <h1 class="w3-text-teal">Lịch khai giảng</h1>
+      <h1 class="w3-text-blue" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Lịch khai giảng</h1>
       <p>
       </p>
-      <ul>
+      <ul style="font-family: Arial, Helvetica, sans-serif">
         <li>Môn học: Công nghệ Web và dịch vụ trực tuyến
         </li>
-        <li>Giảng viên phụ trách: TS. Phạm Huy Hoàngz
+        <li>Giảng viên phụ trách: TS. Phạm Huy Hoàng
         </li>
         <li>Thời gian khai giảng: 14:00, ngày 13/09/2024
         </li>
@@ -72,9 +72,9 @@
 
     <div class="w3-row" id="heading2">
       <div class="w3-twothird w3-container">
-        <h1 class="w3-text-teal pd-hd2">Thông tin Seminar</h1>
+        <h1 class="w3-text-blue pd-hd2" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Thông tin Seminar</h1>
         <p>Tổng hợp thông tin về các buổi hội thảo, seminar sẽ được cập nhật liên tục theo từng tháng, học sinh theo dõi lịch dưới đây</p>
-        <ul>
+        <ul style="font-family: Arial, Helvetica, sans-serif">
           <li>Seminar 1:
             <ul>
               <li>Chủ đề: "Xu hướng công nghệ Web năm 2025"            </li>
@@ -121,11 +121,11 @@
 
     <div class="w3-row w3-padding-64" id="heading3">
       <div class="w3-twothird w3-container">
-        <h1 class="w3-text-teal" >Các công ty quan tâm</h1>
+        <h1 class="w3-text-blue" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Các công ty quan tâm</h1>
         <p>Danh sách công ty quan tâm đến chủ đề này</p>
-        <ul>
+        <ul style="font-family: Arial, Helvetica, sans-serif">
           <li>FPT Software:
-            <ul>
+            <ul >
               <li>Lĩnh vực: Phát triển ứng dụng web, dịch vụ web, API, cloud services.
               </li>
               <li>Nhu cầu: Tuyển dụng các sinh viên có kiến thức về công nghệ Web và Microservices.
@@ -186,20 +186,31 @@
         <a class="w3-button w3-hover-black" href="#">»</a>
       </div>
     </div>
+</div>
 
-    <footer id="myFooter">
-      <div class="w3-container w3-theme-l2 w3-padding-32">
-        <h4>Footer</h4>
-      </div>
-  
-      <div class="w3-container w3-theme-l1">
-        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-      </div>
-    </footer>
+<footer class="ft" style="background-color: #333; color: white; padding: 20px; text-align: center;">
+  <div class="footer-content">
+    <p>&copy; 2024 Công nghệ web và dịch vụ trực tuyến | Trường công nghệ thông tin và truyền thông</p>
+
+    <nav>
+      <ul style="list-style-type: none; padding: 0;">
+        <li style="display: inline; margin-right: 15px;"><a href="index.html" style="color: white; text-decoration: none;">Trang chủ</a></li>
+        <li style="display: inline; margin-right: 15px;"><a href="about.html" style="color: white; text-decoration: none;">Giới thiệu</a></li>
+        <li style="display: inline; margin-right: 15px;"><a href="courses.html" style="color: white; text-decoration: none;">Khóa học</a></li>
+      </ul>
+    </nav>
+
+    <p>Liên hệ: <a href="mailto:bomoncongngheweb@hust.edu.vn" style="color: white;">bomoncongngheweb@hust.edu.vn</a></p>
+
+    <div class="social-media">
+      <a href="https://facebook.com" style="margin-right: 15px;"><img src="images/facebook-icon.png" alt="Facebook" width="20px"></a>
+      <a href="https://twitter.com" style="margin-right: 15px;"><img src="images/twitter-icon.png" alt="Twitter" width="20px"></a>
+      <a href="https://linkedin.com"><img src="images/linkedin.png" alt="LinkedIn" width="20px"></a>
+    </div>
   </div>
 
-
-</div>
+  <p style="font-size: 12px;">Địa chỉ: Tòa nhà B1, Số 1 Trần Đại Nghĩa, Hai Bà Trưng, Hà Nội | Điện thoại: 0985 578 632</p>
+</footer>
 
 <script>
 // Get the Sidebar
@@ -219,11 +230,11 @@ function w3_open() {
   }
 }
 
-// Close the sidebar with the close button
 function w3_close() {
   mySidebar.style.display = "none";
   overlayBg.style.display = "none";
 }
+
 </script>
 
 </body>

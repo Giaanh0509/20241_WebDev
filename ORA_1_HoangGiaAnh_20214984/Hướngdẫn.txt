@@ -1,0 +1,6 @@
+Bạn hãy tải file zip này về và giải nén ra, sau đó mở folder đã giải nén trong visual studio code và chạy go live file index.html sẽ hiển thị toàn bộ bài làm của mình
+(Nếu chưa có go live hãy cài extention live-server)
+(Còn nếu bạn chỉ mở mình file index.html trên trình duyệt thì sẽ không hiển thị được hết bài làm của mình)
+
+Cảm ơn bạn.
+Hoàng Gia Anh.

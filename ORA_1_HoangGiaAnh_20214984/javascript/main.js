@@ -1,3 +1,8 @@
+function highlightLogo() {
+    const logo = document.getElementById('nav-top');
+    logo.classList.add('highlight');
+}
+
 function loadContent(page) {
     fetch(page)
         .then(response => {
@@ -12,9 +17,9 @@ function loadContent(page) {
         .catch(error => {
             console.error('Có lỗi xảy ra:', error);
         });
-}
-
-function loadSidebar(page) {
+  }
+  
+  function loadSidebar(page) {
     fetch(page)
         .then(response => {
             if (!response.ok) {
@@ -28,4 +33,4 @@ function loadSidebar(page) {
         .catch(error => {
             console.error('Có lỗi xảy ra:', error);
         });
-}
+  }
